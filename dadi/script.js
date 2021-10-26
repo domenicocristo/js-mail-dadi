@@ -9,9 +9,9 @@ resultComputer.innerHTML = `Il numero del computer è: ${computer}`;
 if (consumer > computer) {
     finalResult.innerHTML = `Hai vinto! :)`;
 }
- else if (consumer = computer) {
-    finalResult.innerHTML = `Pareggio! :|`;
+ else if (consumer < computer) {
+    finalResult.innerHTML = `Hai perso! :|`;
  }
  else {
-    finalResult.innerHTML = `Hai perso! :(`;
+    finalResult.innerHTML = `Pareggio! :(`;
  }
