@@ -6,11 +6,11 @@ let emailvalidator = false;
 for (let i = 0; i < validEmails.length; i++) {
     if (userEmals == validEmails[i]) {
         emailvalidator = true;
+    }
 }
 
 if (emailvalidator === true) {
     feedback.innerHTML = `La tua email è valida!`;
 } else {
     feedback.innerHTML = `La tua email non è valida!`;
-}
 }
